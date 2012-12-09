@@ -1,4 +1,5 @@
 base:
   '*':
+    - firefox
     - chrome
     - java
