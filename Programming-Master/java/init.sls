@@ -1,9 +1,6 @@
 openjdk:
-  pkg:
-    - latest
-    - refresh: True
+    pkg:
+        - installed
 openjre:
-  pkg:
-    - latest
-    - refresh: True
-
+    pkg:
+        - installed
