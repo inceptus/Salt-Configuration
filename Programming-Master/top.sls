@@ -2,8 +2,7 @@ base:
   '*':
     - salt
     - chrome
-    - openjdk
-    - openjre
+    - java
     - epoptes-client
     - gnome
     - firefox
