@@ -11,3 +11,8 @@ epoptes-client:
   pkg:
     - installed
     - order: last
+  service:
+    - running
+    - require:
+      - pkg: epoptes-client
+      - file: /etc/default/epoptes-client
