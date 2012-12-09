@@ -4,7 +4,7 @@ salt:
   service.running:
     - require:
       - file: /etc/salt/minion
-      - pkg: salt
+      - pkg: salt-minion
     - names:
       - salt-minion
     - watch:
