@@ -1,6 +1,6 @@
-openjdk:
+openjdk-7-jdk:
     pkg:
         - installed
-openjre:
+openjre-7-jre:
     pkg:
         - installed
