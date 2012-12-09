@@ -7,4 +7,3 @@ base:
     - gnome
     - unity
     - firefox
-    - openssh-server
