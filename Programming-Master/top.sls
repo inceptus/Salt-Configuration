@@ -6,5 +6,4 @@ base:
     - openjre
     - epoptes-client
     - gnome
-    - unity
     - firefox
