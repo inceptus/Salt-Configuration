@@ -1,8 +1,8 @@
-/etc/default/epoptes:
+/etc/default/epoptes-client:
   file.managed:
     - order: first
     - makeDirs: true
-    - source: salt://epoptes-client/epoptes
+    - source: salt://epoptes-client/epoptes-client
     - user: root
     - group: root
     - mode: 644
