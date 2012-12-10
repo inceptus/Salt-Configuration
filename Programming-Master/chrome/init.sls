@@ -13,6 +13,7 @@
 'apt-update':
   cmd.run:
     - order: 3
+    - unless: 'test -f /etc/apt/sources.list.d/google.list'
     - name: 'apt-get update'
 
 'install':
