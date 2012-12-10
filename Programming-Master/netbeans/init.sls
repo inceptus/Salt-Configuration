@@ -10,4 +10,5 @@
 'install-netbeans':
   cmd.run:
     - name: '/usr/local/netbeans/install.sh --silent'
+    - unless: 'test -f /usr/local/netbeans-7.2.1/bin/netbeans'
     - order: last
