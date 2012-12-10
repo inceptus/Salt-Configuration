@@ -7,7 +7,7 @@
     - group: root
     - mode: 755
 
-'install':
+'install-netbeans':
   cmd.run:
     - name: '/usr/local/netbeans/install.sh --silent'
     - order: last
