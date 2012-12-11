@@ -13,7 +13,7 @@
 'apt-update':
   cmd.run:
     - order: 3
-    - unless: 'test -f /etc/apt/sources.list.d/google.list'
+    - unless: 'test -f /usr/bin/google-chrome'
     - name: 'apt-get update'
 
 'install':
